@@ -8,7 +8,7 @@ impostos = float(input("digite o reajuste em percentual (de 0 a 45): "))
 percentual_distribuidor = float(input("digite o reajuste em percentual (de 0 a 28): "))
 
 
-print("O valor final do carro para o concumidor é de: ",Valor_carro_fabrica* (1+percentual_distribuidor) * (1+impostos))
+print("O valor final do carro para o consumidor é de: ",Valor_carro_fabrica* (1+percentual_distribuidor) * (1+impostos))
 
 
 
