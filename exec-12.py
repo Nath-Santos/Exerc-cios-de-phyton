@@ -2,3 +2,8 @@
 
 #C5=F - 329
 
+F = float(input("digite a temperatura em Fahrenheit:"))
+
+C = (F - 32) * ( 5 / 9)
+
+print("temperatura em Celsius igual a:", C)
