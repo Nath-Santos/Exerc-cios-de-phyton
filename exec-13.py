@@ -2,3 +2,16 @@
 
 
 #media_final = n1 * 2 + n2 * 3 + n3 * 510
+
+print("escreva a primeira nota:")
+input()
+
+print("escreva a segunda nota:")
+input()
+
+print("escreva a terceira nota:")
+input()
+
+
+
+
