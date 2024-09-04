@@ -1,11 +1,14 @@
 #Ler dois valores (considere que não serão lidos valores iguais) e escrevê-los em ordem crescente.
-numero1 = int(input("Digite um número: "))
-numero2 = int(input("Digite um número: "))
-numero3 = int(input("Digite um número: "))
+print("lista numerica:")
+print("9, 8, 1, 3, 7, 10, 4, 6, 2, 5, 0")
 
-if numero1 > numero2 and numero1 > numero3:
-    pass
-elif numero2 > numero1 and numero3 > numero2:
-    pass
-else:
-    pass
+print()
+lista_num = [9, 8, 1, 3, 7, 10, 4, 6, 2, 5, 0]
+
+lista_num.sort()
+
+print()
+print("lista numerica em ordem crescente:")
+print(lista_num)
+
+#função sort permite fazer a ordenação dos elementos em ordem crescente ou decrescente
