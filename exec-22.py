@@ -7,6 +7,8 @@ mes = 30
 quant_semanas_mes = 4
 horas_trabalhadas_semana = 40 
 print()
-total_horas_trab_mes = quant_semanas_mes * horas_trabalhadas_semana
+total_horas_trab_mes = 4 * 40
 print()
 print("Quant horas trabalhadas no mes:")
+print(total_horas_trab_mes)
+print()
