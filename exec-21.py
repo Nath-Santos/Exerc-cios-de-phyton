@@ -8,3 +8,12 @@ print()
 print("Hora de termino da partida:")
 
 hora_final = int(input())
+print()
+
+tempo = hora_final - hora_inicio
+print()
+if tempo <=0:
+   tempo <+24
+   
+print()
+print(f"Duração do Jogo de xadrez {tempo} horas")
