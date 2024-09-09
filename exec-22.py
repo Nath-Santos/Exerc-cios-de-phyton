@@ -2,7 +2,8 @@
 salario_mes = int
 hrs_trabalhadas_semana = int
 semanas_trabalhadas = int
-extra_por_hrs_trabalhadas = 50/100
+salario_por_hora = float
+extra_por_hrs_trabalhadas = (0.5 * salario_por_hora) * 10
 print()
 print("digite o valor do salário:")
 input()
@@ -10,3 +11,9 @@ print("digite a quant de hrs trabalhadas por semana:")
 input()
 print("digite a quant de semanas trabalhadas:")
 input()
+print()
+if hrs_trabalhadas_semana > 160
+Salario_mes_final = salario_mes + extra_por_hrs_trabalhadas
+else
+Salario_mes_final = salario_mes
+print("Salario_mes_final")
