@@ -15,4 +15,5 @@
 
 peso = float(input("Qual é o seu peso (Kg)? "))
 altura = float(input("Qual é a sua altura (M)? "))
-Peso_ideal_fem = peso / (altura ** 2)
+peso_ideal_fem = (peso * altura) - 44.7
+print("O peso ideal sexo Feminino é: {}".format(peso_ideal_fem))
