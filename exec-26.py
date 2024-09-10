@@ -9,3 +9,7 @@ quant_maxima = int(input())
 
 print("Quantidade mínima do produto")
 quant_minima = int(input())
+
+quant_media = (quant_maxima + quant_minima) / 2
+
+print("Quantidade media do produto em estoque:" + str(quant_media))
