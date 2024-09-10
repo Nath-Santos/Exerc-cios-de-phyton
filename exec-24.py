@@ -8,7 +8,7 @@ valor_vendas_mes = float(input())
 comissao1_extra = (3/100) * valor_vendas_mes
 extra_ref_vendas = valor_vendas_mes - 1500
 comissao2_extra = (5/100) * extra_ref_vendas
-if valor_vendas_mes => 1500:
+if valor_vendas_mes <= 1500:
    salario_mes_total = salario_fixo + comissao1_extra
 else:
    salario_mes_total = salario_fixo + comissao1_extra + comissao2_extra
