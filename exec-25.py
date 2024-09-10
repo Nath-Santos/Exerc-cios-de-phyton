@@ -11,11 +11,11 @@ print("Débito:")
 debito = float(input())
 
 print("Crédito:")
-crédito = float(input())
+credito = float(input())
 
 Saldo_atual_da_conta = float(saldo_conta - debito + credito)
+print("Saldo atual da conta:")
 print(Saldo_atual_da_conta)
-
 
 
 
