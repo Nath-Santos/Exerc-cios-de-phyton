@@ -12,4 +12,4 @@ if valor_vendas_mes <= 1500:
    salario_mes_total = salario_fixo + comissao1_extra
 else:
    salario_mes_total = salario_fixo + comissao1_extra + comissao2_extra
-   print("Salario do mes total R$" + str(salario_mes_total))
+print("Salario do mes total R$" + str(salario_mes_total))
