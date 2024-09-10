@@ -8,19 +8,18 @@ print("digite o valor do salario por hora trabalhada:")
 salario_por_hora_trab = float(input())
 
 hora_extra = horas_trab_mes - total_horas_trab_mes
-print()
-salario_com_extra = ((50/100) * salario_por_horas_trab) * hora_extra
+salario_com_extra = ((50/100) * salario_por_hora_trab) * hora_extra
 salario_do_mes = horas_trab_mes * salario_por_hora_trab
 
-print()
 if horas_trab_mes == total_horas_trab_mes:
     salario_com_extra = salario_do_mes
-print("salario_do_mes:R$ " + str(salario_do_mes))
-print("salario_com_extra: R$ " + str(salario_extra))
+    print("salario_do_mes: R$ " + str(salario_do_mes))
+    print("salario_com_extra: R$ " + str(salario_com_extra))
 elif horas_trab_mes > total_horas_trab_mes:
     salario_com_extra = salario_do_mes + salario_com_extra
-print("salario_do_mes:R$ " + str(salario_do_mes))
-print("salario_por_hora_extra R$ " + str(salario_com_extra))
-print("salario_com_extra: R$ " + str(salario_com_extra))
-else: salario_com_extra = salario_do_mes:
-print("salario_com_extra: R$ " + str(salario_com_extra))
+    print("salario_do_mes: R$ " + str(salario_do_mes))
+    print("salario_com_extra: R$ " + str(hora_extra))
+    print("salario_com_extra: R$ " + str(salario_com_extra))
+else: 
+    salario_com_extra = salario_do_mes
+    print("salario_com_extra: R$ " + str(salario_com_extra))
