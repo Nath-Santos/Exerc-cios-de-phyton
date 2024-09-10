@@ -10,6 +10,6 @@ num3 = float(input())
 
 numeros = [num1, num2, num3]
 
-numeros.short()
+numeros.sort()
   
 print("Segue os números em ordem crescente:" + str(numeros))
