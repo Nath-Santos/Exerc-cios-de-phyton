@@ -13,11 +13,12 @@
 #escrever peso_ideal
 #fim
 
-peso = float(input("Qual é o seu peso (Kg)? "))
-altura = float(input("Qual é a sua altura (M)? "))
+peso = float(input("Escreva o peso (Kg)? "))
+altura = float(input("Escreva a altura (M)? "))
 peso_ideal_F = 62.1
 peso_ideal_fem = (peso_ideal_F * altura) - 44.7
-print("O peso ideal sexo Feminino é: {}".format(peso_ideal_fem))
+print("O peso ideal para o sexo Feminino é: {}".format(peso_ideal_fem))
+
 peso_ideal_M = 72.7
 peso_ideal_masc = (peso_ideal_M * altura) - 58
-print("O peso ideal sexo Feminino é: {}".format(peso_ideal_masc))
+print("O peso ideal para o sexo Masculino é: {}".format(peso_ideal_masc))
