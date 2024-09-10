@@ -11,6 +11,5 @@ valorC = float(input())
 
 if  valorA < valorB + valorC and valorB < valorC + valorA and valorC < valorA + valorB:
     print("As medidas formam um triangulo")
-
 else:
      ("As medidas não formam um triangulo")
