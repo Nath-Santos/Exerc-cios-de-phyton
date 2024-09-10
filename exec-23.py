@@ -12,3 +12,6 @@
 #fim_se
 #escrever peso_ideal
 #fim
+
+peso = float(input("Qual é o seu peso (Kg)? "))
+altura = float(input("Qual é a sua altura (M)? "))
