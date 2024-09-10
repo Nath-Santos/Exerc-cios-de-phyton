@@ -13,10 +13,14 @@ debito = float(input())
 print("Crédito:")
 credito = float(input())
 
-Saldo_atual_da_conta = float(saldo_conta - debito + credito)
-print("Saldo atual da conta:")
-print(Saldo_atual_da_conta)
+saldo_atual_da_conta = float(saldo_conta - debito + credito)
+print("saldo atual da conta:")
+print(saldo_atual_da_conta)
 
+if saldo_atual_da_conta >= 0:
+   print("Saldo positivo")
+
+else:("Saldo negativo")
 
 
 
