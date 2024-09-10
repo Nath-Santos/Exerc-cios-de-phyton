@@ -15,3 +15,4 @@
 
 peso = float(input("Qual é o seu peso (Kg)? "))
 altura = float(input("Qual é a sua altura (M)? "))
+Peso_ideal_fem = peso / (altura ** 2)
