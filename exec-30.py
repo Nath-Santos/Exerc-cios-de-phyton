@@ -8,8 +8,8 @@ num2 = float(input())
 print("Escreva o 3º numero")
 num3 = float(input())
 
-numeros = [num1, num2, num3]
+valores = [num1, num2, num3]
 
-numeros.sort()
+valores.sort()
   
-print("Segue os números em ordem crescente:" + str(numeros))
+print("Seguem os números em ordem crescente:" + str(valores))
