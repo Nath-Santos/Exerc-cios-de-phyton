@@ -4,22 +4,19 @@
 #‘Primeiro é maior’, caso o primeiro seja maior que o segundo;
 #‘Segundo maior’, caso o segundo seja maior que o primeiro.
 
-print("Escreva o 1º numero")
-num1 =float(input())
+valor1 = str(input('nome do 1º valor: '))
+valor2 = str(input('nome do 2º valor: '))
 
-print("Escreva o 2º numero")
-num2 =float(input())
+valor1 = int(input('Digite o número {}:'.format(valor1)))
 
-print("Escreva o 3º numero")
-num3 =float(input())
+valor2 = int(input('Digite o número {}:'.format(valor2)))
 
-if num1 == num2 and num1 == num3:
-   print("NÚMEROS IGUAIS")
+if valor1 > valor2:
+   print('{} O PRIMEIRO É MAIOR'.format(valor1))
 
-elif num1 < num2:
-   print("PRIMEIRO É MAIOR")
+elif valor2 > valor1:
+     print('O SEGUNDO É MAIOR'.format(valor2))
 
 else:
-   num2 > num1
-  
-print("SEGUNDO É MAIOR")
+     valor1 == valor2
+     print("NUMEROS IGUAIS")
