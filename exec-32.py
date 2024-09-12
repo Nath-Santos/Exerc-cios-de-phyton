@@ -6,13 +6,14 @@ print("Time 2")
 num_gols_tm2 =int(input())
 
 
-if   num_gols_tm1 > num_gols_tm2:
-     print(num_gols_tm1)
+if num_gols_tm1 > num_gols_tm2 and num_gols_tm2 < num_gols_tm1:
+   soma = num_gols_tm1 + num_gols_tm2
 
-elif num_gols_tm1 == num_gols_tm2:
-     print(num_gols_tm2)
+elif num_gols_tm2 < num_gols_tm1 and num_gols_tm1 < num_gols_tm1:
+   soma = num_gols_tm2 + num_gols_tm1
 
-
-   
+else:
+   soma = num_gols_tm1 + num_gols_tm2
   
-print("A soma dos maiores valores é igual a:" + str(soma))
+
+print("O vencedor da partida é:" +str(soma))
