@@ -16,6 +16,5 @@ elif  Z <= 100:
 
 else:
       resposta = 'C'
-
-      print(f'O valor de Z é: (Z) / resposta: {resposta}')
+print(f'O valor de Z é: (Z) / resposta: {resposta}')
 
