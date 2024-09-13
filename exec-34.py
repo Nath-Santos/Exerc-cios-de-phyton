@@ -1,19 +1,21 @@
 #dado o algoritmo, faça um teste de mesa  que complete o quadro  a seguir:
-print("Escreva o valor do lado X")
-valorX  = float(input())
+print("Valor de X: ")
+X = int(input())
 
-print("Escreva o valor do lado Y")
-valorY = float(input())
+print("Valor de Y: ")
+Y = int(input())
 
 
+Z = (X * Y) + 5
 
-valorZ = (valorX * valorY) + 5
+if    Z <= 0:
+      resposta = 'A'
 
-if   valorZ <= 0:
-   print("A" +str(valorZ))
-   
-elif valorZ <= 100:
-   print("B" +str(valorZ))
-   
+elif  Z <= 100:
+      resposta = 'B'
+
 else:
-    print("C")
+      resposta = 'C'
+
+      print(f'O valor de Z é: (Z) / resposta: {resposta}')
+
