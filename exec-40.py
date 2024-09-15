@@ -4,12 +4,12 @@
 #- Se quantidade > 5 e quantidade <=10 o desconto será de 3%
 #- Se quantidade > 10 o desconto será de 5%
 
-def calculo_do_total (nome_produto, quant_produto, preco_produto)
-print("Digite o nome do produto:")
-nome_produto = input()
+def calculo_do_total(nome_produto, quant_produto, preco_produto):
+total_produto = quant_produto * preco_produto
 
-print("Digite a quantidade adquirida:")
-quant_produto = input()
-
-print("Digite o preço unitário:")
-preco_produto = float(input())
+if quant_produto <= 5:
+   desconto = total_produto * 0.02
+elif quant_produto <= 10:
+     desconto = total_produto * 0.03
+    else:
+     desconto = total_produto * 0.05
