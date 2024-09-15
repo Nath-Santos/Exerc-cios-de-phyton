@@ -13,3 +13,13 @@ elif quant_produto <= 10:
      desconto = total_produto * 0.03
     else:
      desconto = total_produto * 0.05
+
+valor_tt_p_pagamento n= total_produto - desconto
+
+return total_produto, descontovalor_tt_p_pagamento
+
+nome_produto = "Produto"
+quantidade_adquirida = 8
+preco_unitario = 10.0
+
+total_produto, desconto, total_a_pagar = calculo_do_total(nome_produto, quantidade_adquirida, preco_unitario)
