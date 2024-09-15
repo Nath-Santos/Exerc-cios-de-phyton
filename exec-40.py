@@ -4,6 +4,7 @@
 #- Se quantidade > 5 e quantidade <=10 o desconto será de 3%
 #- Se quantidade > 10 o desconto será de 5%
 
+def calculo_do_total (nome_produto, quant_produto, preco_produto)
 print("Digite o nome do produto:")
 nome_produto = input()
 
