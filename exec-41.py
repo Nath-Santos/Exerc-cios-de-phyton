@@ -28,7 +28,7 @@ elif Média_de_aproveitamento >= 7.5 and Média_de_aproveitamento < 9:
     Conceito = "B"
     print(f"Media de aproveitamento: {Média_de_aproveitamento:.2f}")
     print(f"Conceito: {Conceito}")
-elif media_aproveitamento >= 6 and Média_de_aproveitamento < 7.5:
+elif Média_de_aproveitamento >= 6 and Média_de_aproveitamento < 7.5:
     Conceito = "C"
     print(f"Media de aproveitamento: {Média_de_aproveitamento:.2f}")
     print(f"Conceito: {Conceito}")
